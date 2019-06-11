@@ -97,7 +97,6 @@ a {
 
 .showcase {
     height: 100vh;
-    overflow-x: hidden;
 }
 
 /******** Nav *********/
@@ -129,7 +128,6 @@ a {
 .bio-details {
     width: 65%;
     padding-left: 16px;
-    overflow-x: hidden;
 }
 
 .profile-image {
