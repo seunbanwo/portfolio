@@ -201,6 +201,7 @@ a {
     height: 132px;
     border-radius: 10px;
     margin-right: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -267,14 +268,19 @@ a {
     background: url(../images/dev_ops.png), #000000;
 }
 
-.creativity, .team-leadership, .analytical-reasoning, .critical-thinking, .time-management {
+.creativity, .team-leadership, .analytical-reasoning, 
+.critical-thinking, .time-management, .product-management, 
+.slack, .trello, .jira, .zoom, .python, .react-native, 
+.figma, .html-css-js, .dev-ops {
+    background-repeat: no-repeat;
     background-position: top;
-    background-size: auto;
+    background-size: cover;
 }
 
 .card-text {
     color: #FFFFFF;
-    margin: 5px;
+    /* margin: 5px; */
+    /* padding: 5px; */
     flex: 1;
 }
 
@@ -315,12 +321,27 @@ a {
     background: url(../images/voyageback.png), #000000;
 }
 
-.travul {
-    background: url(../images/travul.png), #f2a541;
+/* .travul {
+    background: url(../images/travul.png), #ffffff;
+} */
+
+.slayy-accessories {
+    background: url(../images/slayy-accessories.png), #ffffff;
 }
 
-.lagblood {
-    background: url(../images/lagblood.png), #f2a541;
+.slayy-signup {
+    background: url(../images/slayy-signup.png), #ffffff;
+}
+
+.mobile-casestudy-img {
+    width: 300px;
+    height: 580px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 .casestudy-img {
@@ -330,16 +351,14 @@ a {
     border-top-left-radius: 10px;
     margin-right: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* background-position: unset; */
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-position: top;
     background-size: auto;
 }
 
 .casestudy-text {
     width: 300px;
-    height: 300px;
+    height: 200px;
     background: #fafafa;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
