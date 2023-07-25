@@ -187,6 +187,33 @@ a {
     text-align: center;
 }
 
+/******** Swipe Right *********/
+.swipe {
+    display: flex; 
+    position: relative;
+    align-items: center;
+    z-index: -1; 
+}
+
+.swipe-left {
+    flex: 4;
+    flex-basis: auto;
+    text-align: center;
+}
+
+.swipe-text {
+    flex: 1;
+    flex-basis: auto;
+    text-align: center;
+}
+
+.swipe-line {
+    border: 1px solid #7A7A7A;
+    flex: 1;
+    flex-basis: auto;
+    text-align: center;
+}
+
 /******** Container *********/
 .container {
     margin-bottom: 80px;
@@ -375,7 +402,7 @@ a {
 
 .mobile-casestudy-about {
     width: 300px;
-    height: 180px;
+    height: 200px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     margin-right: 10px;
@@ -511,6 +538,10 @@ a {
     .scroll {
         width: 20vw;
         left: 40vw;
+    }
+
+    .swipe {
+        display: none;
     }
 }
 
