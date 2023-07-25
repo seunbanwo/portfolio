@@ -130,6 +130,23 @@ a {
     padding-left: 16px;
 }
 
+.bio-details a {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #F2A541;
+    text-decoration: none;
+}
+
+.bio-details h6 {
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 150%;
+    text-decoration: none;
+}
+
 .profile-image {
     margin-left: -57px;
     z-index: -1;
@@ -289,6 +306,10 @@ a {
     margin-top: 60px; 
 }
 
+#portfolio .my-portfolio h3{
+    color: #67112d;
+}
+
 .jumbotron {
     width: 100%;
     height: auto;
@@ -326,22 +347,61 @@ a {
 } */
 
 .slayy-accessories {
-    background: url(../images/slayy-accessories.png), #ffffff;
+    background: url(../images/slayy-main.png), #ffffff;
 }
 
 .slayy-signup {
-    background: url(../images/slayy-signup.png), #ffffff;
+    background: url(../images/slayy-login.png), #ffffff;
+}
+
+.myrx-contact {
+    background: url(../images/myrxdevice-contact.png), #ffffff;
+}
+
+.myrx-scan {
+    background: url(../images/myrxdevice-scan.png), #ffffff;
 }
 
 .mobile-casestudy-img {
     width: 300px;
-    height: 580px;
+    height: 600px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     margin-right: 10px;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+}
+
+.mobile-casestudy-about {
+    width: 300px;
+    height: 180px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.mobile-casestudy-about a {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #F2A541;
+    text-decoration: none;
+}
+
+.mobile-casestudy-about h6 {
+    font-family: Roboto;
+    /* font-style: italic; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* color: #F2A541; */
+    text-decoration: none;
 }
 
 .casestudy-img {
@@ -364,6 +424,18 @@ a {
     border-bottom-left-radius: 10px;
     margin-right: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.casestudy-text-nobg {
+    width: 300px;
+    height: 50px;
+    background: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
     text-align: center;
