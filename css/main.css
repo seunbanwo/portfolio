@@ -307,7 +307,7 @@ nav a:hover, .content a:hover {
 @media only screen and (max-width: 767px) {
     .showcase .content {
         display: inline-block;
-        background-color: #EE4B2B;
+        /* background-color: #EE4B2B; */
         height: 30%;
     }
     
@@ -326,13 +326,13 @@ nav a:hover, .content a:hover {
         transform: translate(0, 140%);
     }
     
-    .ImageBackground ellipse {
+    /* .ImageBackground ellipse {
         fill: #EE4B2B;
-    }
+    } */
     
-    .Oval ellipse {
+    /* .Oval ellipse {
         fill: #071013;
-    }
+    } */
 
     nav {
         position: static; /* Remove sticky positioning on smaller screens */
