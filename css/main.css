@@ -280,15 +280,18 @@ nav a:hover, .content a:hover {
     bottom: -3px;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, 50%);
 }
 
 .Oval {
     left: 0px;
-    bottom: 68px;
+    /* bottom: 68px; */
+    bottom: -68px;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, 50%);
 }
 
 /******** Small Screen *********/
@@ -319,7 +322,8 @@ nav a:hover, .content a:hover {
     
     .DivBioDetails {
         position: relative;
-        transform: translate(0, -120%);
+        /* transform: translate(0, -120%); */
+        transform: translate(0, 140%);
     }
     
     .ImageBackground ellipse {
