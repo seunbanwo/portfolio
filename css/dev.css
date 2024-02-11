@@ -1,13 +1,13 @@
 body {
-    font-family: Inter;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    color: #888888;
+    color: #AAAAAA;
     text-decoration: none;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #EE4B2B;
 }
 
 /******** Section, Content and Footer *********/
@@ -29,7 +29,7 @@ body {
 /******** Sections *********/
 
 section {
-    background-color: #ffffff;
+    background-color: #071013;
     margin-bottom: 1px;
     height: 75vh;
     position: relative;
@@ -63,7 +63,7 @@ section {
 /******** Footer *********/
 
 footer {
-    background-color: #ffffff;
+    background-color: #071013;
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
@@ -73,17 +73,9 @@ footer {
     height: 25vh;
 }
 
-.footer a {
-    color: #0e8cf9;
-}
-
-.footer a:hover {
-    color: #0088FF;
-}
-
 /******** Fonts *********/
 a {
-    font-family: Inter;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -93,7 +85,7 @@ a {
 }
 
 h3 {
-    color: #111111;
+    color: #FFF;
     text-align: center;
     font-family: Baloo Bhai;
     font-size: 24px;
@@ -113,19 +105,19 @@ h3 {
 }
 
 h5 {
-    color: #111111;
+    color: #EE4B2B;
     text-align: center;
-    font-family: Inter;
+    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-weight: 800;
-    line-height: 32px;
+    font-weight: 600;
+    line-height: 21px;
 }
 
 h6 {
     color: #AAA;
     text-align: center;
-    font-family: Inter;
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -138,7 +130,6 @@ h6 {
 
 /******** Navigation *********/
 nav {
-    max-width: 1000px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0;
@@ -148,7 +139,7 @@ nav {
     position: sticky;
     display: flex;
     align-items: flex-start;
-    background: #ffffff;
+    background: #071013;
     z-index: 10000; /* Ensure it's on top of other elements */
 }
 
@@ -265,7 +256,7 @@ nav a:hover, .content a:hover {
 
 .Tagline {
     font-size: 16px; 
-    font-family: Inter; 
+    font-family: Roboto; 
     font-style: italic; 
     font-weight: 700;
 }
